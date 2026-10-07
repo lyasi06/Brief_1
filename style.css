@@ -545,3 +545,22 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.logo img {
+  height: 70px;
+  width: auto;
+  transform: translateX(25px);
+}
+#tag{
+  width: 100;
+}
+#lolo img{
+  transform: translateX(-16px);
+  margin-top: 10px;
+}
+#koko img{
+  transform: translateX(16px);
+  margin-top: 30px;
+}
+#bobo img{
+  margin-top: 5px;
+}
