@@ -345,6 +345,9 @@ button:focus-visible {
   font-weight: 600;
   color: #0F1B2D;
 }
+.valeur:hover{
+  background-color: ghostwhite;
+}
 
 .apropos-image {
   flex: 5;
@@ -563,4 +566,43 @@ button:focus-visible {
 }
 #bobo img{
   margin-top: 5px;
+}
+@media screen and (max-width: 700px) {
+  .hero-contenu {
+    flex-direction: column;
+  }
+
+  .boutons {
+    flex-direction: column;
+  }
+  .hero-image {
+    width: 100%;
+  }
+
+  .chiffres {
+    flex-direction: column;
+  }
+  .cartes {
+    flex-direction: column;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+  }
+
+  .apropos-image {
+    width: 100%;
+  }
+
+  .valeurs {
+    flex-direction: column;
+  }
+
+  .pied-haut {
+    flex-direction: column;
+  }
+
+  .menu-pied {
+    flex-direction: column;
+  }
 }
