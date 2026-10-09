@@ -522,6 +522,7 @@ button:focus-visible {
 
 .logo-clair {
   color: #FFFFFF;
+  transform: translateX(-66px);
 }
 
 .slogan {
@@ -564,8 +565,19 @@ button:focus-visible {
   transform: translateX(16px);
   margin-top: 30px;
 }
-#bobo img{
+#bobo img:hover{
   margin-top: 5px;
+  transform: scale(1.2);
+
+}
+.hero-image:hover{
+  transform: scale(1.2);
+}
+#koko img:hover{
+  transform: scale(1.2);
+}
+#lolo img:hover{
+  transform: scale(1.2);
 }
 @media screen and (max-width: 700px) {
   .hero-contenu {
@@ -600,9 +612,28 @@ button:focus-visible {
 
   .pied-haut {
     flex-direction: column;
+     transform: translateX(30px);
   }
 
   .menu-pied {
+    flex-direction: column;  
+  }
+  .chiffre{
     flex-direction: column;
   }
+  #lolo img{
+  transform: translateX(4px);
+  margin-top: 10px;
+  }
+  .chiffre + .chiffre {
+    border-top: 1px solid #E5E7EB;
+    border-left: 0;
+    flex-direction: column;
+}
+.menu{
+  transform: translate(-30px);
+}
+html {
+    overflow-x:hidden;
+}
 }
